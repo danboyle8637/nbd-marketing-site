@@ -1,0 +1,4 @@
+{{ $globalCSS := resources.Get "css/global.css" | resources.Minify }}
+
+<link rel="stylesheet" href="{{ $globalCSS.Permalink }}"/>
+
