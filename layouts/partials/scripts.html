@@ -1,4 +1,4 @@
 {{ $functionsJS := resources.Get "js/functions.js" | resources.Minify }}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
-<script src="{{ $functions.Permalink }}"></script>
+<script src="{{ $functionsJS.Permalink }}"></script>

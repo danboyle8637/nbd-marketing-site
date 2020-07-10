@@ -1,11 +1,21 @@
-body {
-  background: #131317;
+:root {
+  --main-bg-color: #131317;
+  --base-headline-color: #7780ff;
+  --base-body-text: #adb6ed;
+  --blog-post-h1: #b0f3ff;
 }
 
-h1, h2, h3, h4 {
-  color: #7780FF;
+body {
+  background: var(--main-bg-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--base-headline-color);
 }
 
 p {
-  color: #B0F3FF;
+  color: var(--base-body-text);
 }
