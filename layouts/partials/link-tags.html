@@ -1,4 +1,5 @@
-{{ $globalCSS := resources.Get "css/global.css" | resources.Minify }}
+{{ $globalCSS := resources.Get "css/global.css" | resources.Minify }} 
+{{ $headerCSS := resources.Get "css/header.css" | resources.Minify }}
 
-<link rel="stylesheet" href="{{ $globalCSS.Permalink }}"/>
-
+<link rel="stylesheet" href="{{ $globalCSS.Permalink }}" />
+<link rel="stylesheet" href="{{ $headerCSS.Permalink }}" />

@@ -19,3 +19,8 @@ h4 {
 p {
   color: var(--base-body-text);
 }
+
+.temp-home-page {
+  width: 100vw;
+  height: 100vh;
+}
