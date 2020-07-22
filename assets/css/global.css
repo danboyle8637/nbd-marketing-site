@@ -6,7 +6,13 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background: var(--main-bg-color);
+}
+
+main {
+  padding: 60px 0 0 0;
 }
 
 h1,

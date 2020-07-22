@@ -4,6 +4,15 @@
   <h1>Home Page</h1>
   <div>
     {{ .Content }}
+    <br />
+    <br />
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
   </div>
 </div>
 

@@ -1,4 +1,34 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Never Back Down"
 metaDataFormat = "yaml"
+title = "Never Back Down"
+
+[menu]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+title = "Home Page"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "trail-running"
+name = "Trail Running"
+title = "Trail Running"
+url = "/trail-running"
+weight = 2
+
+[[menu.main]]
+identifier = "gaming"
+name = "Gaming"
+title = "Gaming"
+url = "/gaming"
+weight = 3
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+title = "About"
+url = "/about"
+weight = 4
